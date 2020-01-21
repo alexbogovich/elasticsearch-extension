@@ -65,10 +65,9 @@ bintray {
         name = project.name
         userOrg = "alexbogovich"
         websiteUrl = "https://github.com/alexbogovich/${project.name}"
-        githubRepo = "https://github.com/alexbogovich/${project.name}"
-        vcsUrl = "https://github.com/alexbogovich/${project.name}"
+        vcsUrl = "https://github.com/alexbogovich/${project.name}.git"
         description = "Kotlin extension functions for elasticsearch"
-        setLabels("Elasticsearch")
+        setLabels("Elasticsearch kotlin extensions")
         setLicenses("MIT")
     })
 }
